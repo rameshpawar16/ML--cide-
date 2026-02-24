@@ -46,7 +46,7 @@ jobs:
 
     # 8️⃣ Upload Trained Model as Artifact
     - name: Upload Model Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: trained-model
         path: models/model.pkl
